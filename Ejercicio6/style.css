@@ -8,25 +8,22 @@ form{
     margin-top:50px;
     display:flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
+    height:500px;
     align-items: center;
-    color: blueviolet;
+    color: rgb(253, 0, 198);
     background-image: url("Josefina\ Duret.png")
 }
 form div{
     display:flex;
-    justify-content: center;
-    align-items: center;
-}
-form div div{
-    display:flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-button{
+
+#subm{
     height:30px;
-    padding:20px;
+    width:100px;
     display:flex;
     justify-content: center;
     align-items: center;
